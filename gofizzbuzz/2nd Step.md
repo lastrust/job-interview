@@ -1,0 +1,13 @@
+## 2nd Step: FizzBuzz API
+- Modify the code you made on Step1 to a web API.
+- Request
+  - Endpoint is `http://<domain>:8080/fizzbuzz`.
+  - You don't have to send any param & data.
+  - Run the FizzBuzz function which you make on Step1 when you send requests to the endpoint.
+- Response
+  - Return a response JSON as `{ "result": "FizzBuzz" }` when you send a request to right endpoints.
+- FizzBuzz Function(same as step1)
+  - Output numbers 1~100 to stdout (console).
+  - When the number is multiple of "3", print "Fizz" instead of the number.
+  - When the number is multiple of "5", print "Buzz" instead of the number.
+  - When the number is multiple of "3" and "5", print "FizzBuzz" instead of the number.

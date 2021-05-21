@@ -1,0 +1,15 @@
+## 3rd Step: Rondomized FizzBuzz
+- Modify the code you made on Step2.
+- FizzBuzz Function
+  - output random numbers 1~100 to stdout again and again
+  - When the number is multiple of "3", print "Fizz" with the number
+  - When the number is multiple of "5", print "Buzz" with the number
+  - When the number is multiple of "3" and "5", print "FizzBuzz" with the number
+  - When you got a "FizzBuzz", stop the loop and return the number.
+- Request
+  - Endpoint is `http://<domain>:8080/fizzbuzz`.
+  - You don't have to send any param & data.
+  - Run the FizzBuzz function when you send requests to the endpoint.
+- Response
+  - Return a response JSON as `{ "result": <number> }` when you send a request to right endpoints.
+  - `<number>` is the number which you got a "FizzBuzz".
